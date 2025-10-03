@@ -27,31 +27,13 @@ The goal is to make blood availability faster and easier during emergencies.
 **Database:**  
 - SQLite (initial) → scalable to MySQL/Postgres  
 
-**Deployment Options:**  
-- Heroku / Render / Railway (free hosting)  
-- Docker (optional)  
-
-
-## 📂 Project Structure  
-
-blood-donor-app/
-│── app.py # Flask entry point
-│── requirements.txt # Dependencies
-│── README.md # Project documentation
-│── .gitignore # Ignore venv, pycache, etc.
-│── donors.db # SQLite database (auto-created)
-│── templates/ # HTML files
-│ ├── base.html
-│ ├── register.html
-│ ├── search.html
-│── static/ # CSS/JS files
-
 
 
 ## ⚙️ Setup & Installation  
 
 1️⃣ Clone the repo  
 git clone https://github.com/Haary-7/blood-donor-app.git
+
 cd blood-donor-app
 
 2️⃣ Create a Virtual Environment
