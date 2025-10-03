@@ -38,7 +38,9 @@ cd blood-donor-app
 
 2️⃣ Create a Virtual Environment
 python3 -m venv venv
+
 source venv/bin/activate   # Mac/Linux
+
 venv\Scripts\activate      # Windows
 
 3️⃣ Install Dependencies
